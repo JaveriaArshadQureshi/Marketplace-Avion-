@@ -1,6 +1,6 @@
-EndPoint Name	Method	Description	                                Response
-(/products)	    Get	    Fetch all product details.	                Product details (ID, name, price, stock, image).{ "id": 1, "name": "Product A", "price": 100 }
-(/order)	    Post	Create a new order in Sanity.	            Customer info, product details, payment status.
-(/order cancel)	Delect	Delect order in Sanity.	
-(/ship)	        Get	    Track order status via third-party API.	    Shipment ID, order ID, status, expected delivery date.{"Spid":004, "Oid":1, "status":"success"}
-(/payment)	    Post	Manage Payment Process.	                    status,PaymentMethod.{"status":"success","PaymentMethod":"Coston"}
+EndPoint Name	 Method	   Description	                                Response
+(/products)	    Get	     Fetch all product details.	                 Product details (ID, name, price, stock, image).{ "id": 1, "name": "Product A", "price": 100 }
+(/order)	      Post	   Create a new order in Sanity.	             Customer info, product details, payment status.
+(/order cancel)	Delect	 Delect order from Sanity.	
+(/ship)	        Get	     Track order status via third-party API.	    Shipment ID, order ID, status, expected delivery date.{"Spid":004, "Oid":1, "status":"success"}
+(/payment)	    Post	   Manage Payment Process.	                    status,PaymentMethod.{"status":"success","PaymentMethod":"Coston"}
